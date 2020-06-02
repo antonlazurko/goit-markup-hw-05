@@ -121,7 +121,7 @@ img {
   position: relative;
   color: var(--accent-color);
 }
-.site-nav .link.current:after {
+.site-nav .link.current::after {
   position: absolute;
   content: '';
   height: 4px;
