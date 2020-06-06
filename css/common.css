@@ -199,11 +199,14 @@ img {
   padding-top: 21px;
   padding-bottom: 56px;
 }
+.footer-social__item {
+  display: flex;
+  margin-right: 10px;
+}
 .footer-social__link {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
