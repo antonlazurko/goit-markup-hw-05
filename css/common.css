@@ -116,6 +116,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .link.current {
   position: relative;
@@ -135,6 +136,7 @@ img {
   display: flex;
   align-items: center;
   color: var(--secondary-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -159,6 +161,7 @@ img {
   margin-right: 10px;
 
   fill: var(--secondary-text-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover > .nav-icon,
 .link:focus > .nav-icon {
@@ -208,6 +211,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(255, 255, 255, 10%);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social__link:last-child {
   margin-right: 0px;
@@ -302,10 +306,13 @@ img {
 .input-button--submit:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .plane {
   fill: var(--secondary-white-color);
   margin-left: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-button--submit:hover > .plane,
 .input-button--submit:focus > .plane {
